@@ -38,9 +38,22 @@
        <div class="navbar-collapse collapse">
          <ul class="nav navbar-nav navbar-right">
            <li class="active"><a href="/">Home</a></li>
-           <li><a href="blog.html">Blog</a></li>
-           <li><a href="resources.html">Resources</a></li>
-            <li><a href="contact.html">Contact</a></li>
+           <!-- <li><a href="blog.html">Locations</a></li> -->
+           <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Locations<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#"></a></li>
+            <li><a href="location-eagan.html">Eagan, MN</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Eden Prairie, MN</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Lakeville, MN</a></li>
+          </ul>
+        </li>
+            <li><a href="resources.html">Memberships</a></li>
+            <li><a href="resources.html">Personal Training</a></li>
+            <li><a href="contact.html">Group Fitness</a></li>
+            <li><a href="contact.html">Evo Challenges</a></li>
          </ul>
        </div>
     </div>
@@ -135,7 +148,7 @@
   <h2>Call to action section</h2>
   <h4>Some info about the call to action</h4>
   <p>Add a modal pop up with the contact form</p>
-  <button class="btn btn-info btn-lg">Click Here</button>
+  <button class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Get a 7 Day Vip All Access Pass</button>
  </div>
 </section>
 
@@ -205,9 +218,62 @@
   </div>
 </section>
 
-<footer>
+<footer class="footer">
+ <div class="container">
+   <div class="row">
+     <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+       <p><span>Copyright &copy; Evo Body Fitness Clubs. All Rights Reserved</span></p>
+     </div>
+     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 icons">
+       <a href="#" class="fa fa-facebook"></a>
+       <a href="#" class="fa fa-twitter"></a>
+     </div>
+   </div>
 
+ </div>
 </footer>
+
+<!-- MODAL
+	================================================== -->
+	<div class="modal fade" id="myModal">
+   <div class="modal-dialog">
+     <div class="modal-content">
+      <div class="modal-header">
+       <button type="button" class="close" data-dismiss="modal">
+        <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+       </button>
+       <h4 class="modal-title" id="myModalLabel"><i class="fa fa-thumbs-up"></i>Get A FREE 7 Day All Access Pass </h4>
+      </div>
+      <div class="modal-body">
+       <p>Full access includes unlimited club visits, kids room and group fitness classes </p>
+        <form class="form-inline" role="form">
+          <div class="form-group">
+            <label class="sr-only" for="first-name">Your first name</label>
+            <input type="text" class="form-control" id="first-name" placeholder="First name" />
+          </div>
+          <div class="form-group">
+            <label class="sr-only" for="last-name">Your last name</label>
+            <input type="text" class="form-control" id="last-name" placeholder="Lirst name" />
+          </div>
+
+          <div class="form-group email">
+            <label class="sr-only" for="email">Your email</label>
+            <input type="email" class="form-control" id="email" placeholder="Your email" />
+          </div>
+          <div class="form-group">
+            <label class="sr-only" for="email">Your Phone</label>
+            <input type="phone" class="form-control" id="phone" placeholder="Your email" />
+          </div>
+          <br />
+          <input id="modal-submit" type="submit" class="btn btn-info" block value="Get Pass" />
+        </form>
+        <hr>
+        <p><em>7 day full access passes expire after 7 days after expiration. Valid for first time guests. Must live within 10 miles of the facility.</em></p>
+        <p class="disclaimer"><em>Privacy Statement: You consent to follow-up voice, text and/or email communications from the Evo Body at the phone numbers and email address given above.</em></p>
+      </div>
+     </div>
+   </div>
+	</div><!-- modal -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="assets/js/jquery-2.1.1.min.js"></script>
