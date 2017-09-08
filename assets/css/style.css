@@ -163,8 +163,25 @@ h1,h2,h3,h4,h5,h6 {
 
 /*********************************EAGAN LOCATION PAGE*************************/
 
+.location-form{
+  background-color: rgb(56,56,56);
+  color: white;
+  margin-top: -50px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
 .dropdown-menu .active a {
     background: rgb(59,185,76);
+}
+
+.form-inline input {
+  margin: 8px;
+}
+
+#btn-submit {
+  width: 200px;
+  margin-bottom: 20px;
 }
 
 .location-form ul {
@@ -173,13 +190,17 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .location-form h2, h3 {
-  padding: 0;
+  padding: 0 0 15px 0;
   margin: 0;
 }
 
 .location-form li {
   /*padding: 0;
   margin: 0;*/
+}
+
+.row .maps {
+  padding-top: 100px;
 }
 
 .location-form i {
@@ -189,7 +210,38 @@ h1,h2,h3,h4,h5,h6 {
 
 }
 
+.location-info {
+  background-color: gray;
+}
 
+.location-amenities {
+  background-color: rgba(63,255,38,.6);
+}
+
+.location-amenities h2 {
+  text-align: center;
+
+}
+
+
+.amenities h3 {
+  background-color: rgb(59,185,76);
+  color: white;
+  padding: 10px;
+}
+
+.amenities p {
+  background-color: rgb(56,56,56);
+  color: white;
+  padding: 10px;
+}
+
+.location-amenities .amenities {
+  height:340px;
+  background-color: rgb(56,56,56);
+  padding:0px;
+  margin: 10px;
+}
 
 /****************************** ENDEAGAN LOCATION PAGE*************************/
 
@@ -358,6 +410,10 @@ footer {
   .footer .icons {
     padding-left: 100px;
   }
+
+  .amenities-block {
+    padding-left: 15%;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -375,5 +431,9 @@ footer {
 
   .footer .icons {
     padding-left: 200px;
+  }
+
+  .amenities-block {
+    padding-left: 17%;
   }
 }
