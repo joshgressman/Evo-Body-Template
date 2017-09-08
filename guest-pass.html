@@ -37,7 +37,7 @@
       </div>
        <div class="navbar-collapse collapse">
          <ul class="nav navbar-nav navbar-right">
-           <li class="active"><a href="/">Home</a></li>
+           <li><a href="/">Home</a></li>
            <!-- <li><a href="blog.html">Locations</a></li> -->
            <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Locations<span class="caret"></span></a>
@@ -56,7 +56,7 @@
              <li><a href="#"></a></li>
              <li><a href="#">Join Now</a></li>
              <li role="separator" class="divider"></li>
-             <li><a href="guest-pass.html">Free Guest Pass</a></li>
+             <li class="active"><a href="#">Free Guest Pass</a></li>
            </ul>
          </li>
             <li><a href="resources.html">Personal Training</a></li>
@@ -67,98 +67,80 @@
     </div>
    </div>
  </div>
+</header> <!--END HEADER -->
 
-</header>
+<!--  Hero -->
+<section class="hero-section">
+  <div class="jumbotron" style="background: url(./assets/img/open-gym.jpg) no-repeat center center;   background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;">
+  <h1 class="display-3">Free 7 Day Full Access Pass</h1>
 
-<!--  Carousel -->
-<section class="slider">
-<div id="this-carousel-id" class="carousel slide"><!-- class of slide for animation -->
-  <div class="carousel-inner">
-    <div class="item active">
-      <img src="./assets/img/hero.jpg" alt="" />
-      <div class="carousel-caption">
-        <button class="btn btn-info">Learn More</button>
-        <h2>More Stuff</h2>
-      </div>
-    </div>
-    <div class="item">
-      <img src="./assets/img/group.jpg" alt="" />
-      <div class="carousel-caption">
-       <h2>This is slide 2</h2>
-      </div>
-    </div>
-    <div class="item">
-      <img src="./assets/img/hero.jpg" alt="" />
-      <div class="carousel-caption">
-        <h2>This is slide 3</h2>
-      </div>
-    </div>
-    <div class="item">
-      <img src="./assets/img/group.jpg" alt="" />
-      <div class="carousel-caption">
-        <h2>This is slide 4</h2>
-      </div>
-    </div>
-  </div><!-- /.carousel-inner -->
-  <!--  Next and Previous controls below
-        href values must reference the id for this carousel -->
-    <a id="arrow" class="carousel-control left" href="#this-carousel-id" data-slide="prev">&lsaquo;</a>
-    <a id="arrow" class="carousel-control right" href="#this-carousel-id" data-slide="next">&rsaquo;</a>
-</div><!-- /.carousel -->
+</div>
+
 </section>
-<!-- END CAROUSEL -->
+<!-- END HERO SECTION -->
 <hr>
 
-<!-- INFO SECTION -->
-<section class="info">
+<section class="guest-pass-form">
   <div class="container">
-    <div class="row">
-      <div id="info-one" class="col-lg-4 col-md-4 col-sm-12 col-xs-12 call">
-       <a href="index.html">
-       <img class="img-responsive" src="./assets/img/group.jpg">
-       <div class="info-content">
-        <h3>Group Exercise</h3>
-          <h4>SIGNUP TODAY</h4>
-          <p>OUR CLASSES ARE FUN</p>
-       </div>
-       </a>
-      </div>
-      <div id="info-two" class="col-lg-4 col-md-4 col-sm-12 col-xs-12 call">
-        <a href="index.html">
-        <img class="img-responsive" src="./assets/img/group.jpg">
-        <div class="info-content">
-         <h3>Personal Training</h3>
-           <h4>SIGNUP TODAY</h4>
-           <p>OUR CLASSES ARE FUN</p>
+    <form class="" role="form">
+      <div class="row">
+      <div class="col-lg-5 col-lg-offset-2 col-md-5 col-sm-12 col-xs-12">
+        <div class="form-group">
+          <label  for="first-name">First Name</label>
+          <input style="width: 300px;" type="text" class="form-control"  placeholder="First name" />
         </div>
-      </a>
       </div>
-      <div id="info-three" class="col-lg-4 col-md-4 col-sm-12 col-xs-12 call">
-        <a href="index.html">
-        <img class="img-responsive" src="./assets/img/group.jpg">
-          <div class="info-content">
-           <h3>Membership Options</h3>
-             <h4>SIGNUP TODAY</h4>
-             <p>OUR CLASSES ARE FUN</p>
+      <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+        <div class="form-group">
+          <label  for="last-name">Last Name</label>
+          <input style="width: 300px;" type="text" class="form-control" placeholder="Lirst name" />
+        </div>
+      </div>
+        </div>
+        <div class="row">
+        <div class="col-lg-5 col-lg-offset-2 col-md-5 col-sm-12 col-xs-12">
+          <div class="form-group email">
+            <label for="email">Email</label>
+            <input style="width: 300px;" type="email" class="form-control"  placeholder="Your email" />
           </div>
-        </a>
-      </div>
-    </div>
+        </div>
+        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+          <div class="form-group">
+            <label for="email">Phone</label>
+            <input style="width: 300px;" type="phone" class="form-control"  placeholder="Your email" />
+          </div>
+        </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-5 col-lg-offset-2 col-md-5 col-sm-12 col-xs-12">
+              <div class="form-group">
+                <label for="sel1">Select Location:</label>
+                <select class="form-control" style="width: 300px;">
+                <option>Location</option>
+                <option>Eagan</option>
+                <option>Eden Prairie</option>
+                <option>Lakeville</option>
+              </select>
+            </div>
+            </div>
+          </div>
+           <div class="row pass-page-disc">
+            <div class="col-lg-5 col-lg-offset-2 col-md-5 col-sm-12 col-xs-12">
+            <button id="pass-page-button" type="submit" class="btn btn-info">Get Pass</button>
+          </div>
+            <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+
+          </div>
+          </div>
+          <h3 style="text-align: center;">Pass must be activated within 72 hours of submission. Must be 18+ with valid local photo ID.</h3>
+          <p class="disclaimer" style="text-align: center;"><em>Privacy Statement: You consent to follow-up voice, text and/or email communications from the Evo Body at the phone numbers and email address given above.</em></p>
+    </form>
   </div>
 </section>
 
-<!-- CALL TO ACTION SECTION -->
-<section class="call-to-action" style="background: url(./assets/img/green.png) no-repeat center center;   background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;">
- <div class="container">
-  <h2>Call to action section</h2>
-  <h4>Some info about the call to action</h4>
-  <p>Add a modal pop up with the contact form</p>
-  <button class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Get a 7 Day Vip All Access Pass</button>
- </div>
-</section>
 
 <!-- Amenetires Section -->
 <section class="amenities">
@@ -241,47 +223,7 @@
  </div>
 </footer>
 
-<!-- MODAL
-	================================================== -->
-	<div class="modal fade" id="myModal">
-   <div class="modal-dialog">
-     <div class="modal-content">
-      <div class="modal-header">
-       <button type="button" class="close" data-dismiss="modal">
-        <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
-       </button>
-       <h4 class="modal-title" id="myModalLabel"><i class="fa fa-thumbs-up"></i>Get A FREE 7 Day All Access Pass </h4>
-      </div>
-      <div class="modal-body">
-       <p>Full access includes unlimited club visits, kids room and group fitness classes </p>
-        <form class="form-inline" role="form">
-          <div class="form-group">
-            <label class="sr-only" for="first-name">Your first name</label>
-            <input type="text" class="form-control" id="first-name" placeholder="First name" />
-          </div>
-          <div class="form-group">
-            <label class="sr-only" for="last-name">Your last name</label>
-            <input type="text" class="form-control" id="last-name" placeholder="Lirst name" />
-          </div>
 
-          <div class="form-group email">
-            <label class="sr-only" for="email">Your email</label>
-            <input type="email" class="form-control" id="email" placeholder="Your email" />
-          </div>
-          <div class="form-group">
-            <label class="sr-only" for="email">Your Phone</label>
-            <input type="phone" class="form-control" id="phone" placeholder="Your email" />
-          </div>
-          <br />
-          <input id="modal-submit" type="submit" class="btn btn-info" block value="Get Pass" />
-        </form>
-        <hr>
-        <p><em>7 day full access passes expire after 7 days after expiration. Valid for first time guests. Must live within 10 miles of the facility.</em></p>
-        <p class="disclaimer"><em>Privacy Statement: You consent to follow-up voice, text and/or email communications from the Evo Body at the phone numbers and email address given above.</em></p>
-      </div>
-     </div>
-   </div>
-	</div><!-- modal -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="assets/js/jquery-2.1.1.min.js"></script>

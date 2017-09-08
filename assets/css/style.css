@@ -161,7 +161,7 @@ h1,h2,h3,h4,h5,h6 {
   color: white;
 }
 
-/*********************************EAGAN LOCATION PAGE*************************/
+/********************************* LOCATION PAGE*************************/
 
 .location-form{
   background-color: rgb(56,56,56);
@@ -243,7 +243,31 @@ h1,h2,h3,h4,h5,h6 {
   margin: 10px;
 }
 
-/****************************** ENDEAGAN LOCATION PAGE*************************/
+/****************************** END LOCATION PAGE*************************/
+
+/*******************************GUEST PASS PAGE**************************/
+
+.hero-section h1 {
+  text-align: center;
+  color: white;
+  text-shadow:
+   -1px -1px 0 #000,
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+   1px 1px 0 #000;
+}
+
+#pass-page-button {
+  width: 300px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.guest-pass-form {
+  margin-bottom: 50px;
+}
+
+/*****************************END GUEST PASS PAGE************************/
 
 /*FOOTER*/
 
