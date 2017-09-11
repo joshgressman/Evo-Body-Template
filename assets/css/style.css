@@ -267,7 +267,20 @@ h1,h2,h3,h4,h5,h6 {
   margin-bottom: 50px;
 }
 
+.guest-pass-form h3,p,label{
+  color: rgba(56,56,56,.8);
+}
+
+
 /*****************************END GUEST PASS PAGE************************/
+
+/************************PERSONAL TRAINING PAGE**************************/
+.hero-section-personal-training .jumbotron {
+
+}
+
+
+/********************END PERSONAL TRAINING PAGE**************************/
 
 /*FOOTER*/
 
@@ -358,7 +371,9 @@ footer {
 /*MEDIA QUERIES */
 @media only screen and (max-width: 375px) {
 
-
+  .hero-section-personal-training .jumbotron {
+    height: 200px;
+  }
 
 }
 
@@ -373,7 +388,9 @@ footer {
 
   }
 
-
+  .hero-section-personal-training .jumbotron {
+    height: 200px;
+  }
 
 }
 
@@ -385,6 +402,10 @@ footer {
       width: 25px;
       text-align: center;
       text-decoration: none;
+  }
+
+  .hero-section-personal-training .jumbotron {
+    height: 200px;
   }
 
 }
@@ -402,6 +423,10 @@ footer {
     color: rgb(59,185,76);
     padding-top: 10px;
   }
+
+  .hero-section-personal-training .jumbotron {
+    height: 200px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -415,6 +440,10 @@ footer {
     font-size: 8.0em;
     color: rgb(59,185,76);
     padding-top: 90px;
+  }
+
+  .hero-section-personal-training .jumbotron {
+    height: 300px;
   }
 }
 
@@ -438,6 +467,10 @@ footer {
   .amenities-block {
     padding-left: 15%;
   }
+
+  .hero-section-personal-training .jumbotron {
+    height: 300px;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -459,5 +492,9 @@ footer {
 
   .amenities-block {
     padding-left: 17%;
+  }
+
+  .hero-section-personal-training .jumbotron {
+    height: 400px;
   }
 }
