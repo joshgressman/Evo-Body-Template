@@ -279,6 +279,45 @@ h1,h2,h3,h4,h5,h6 {
 
 }
 
+.pt-content ul{
+  list-style: none;
+  padding: 0;
+}
+
+.pt-content li {
+  padding: 0;
+}
+
+.pt-content i {
+  font-size: 1.0em;
+  padding: 5px;;
+  margin: 0;
+}
+
+#book-assessment{
+  font-size: 1.2em;
+  margin: 40px 0 0 50px;
+}
+
+#book-assessment i {
+  padding: 0;
+  margin-right: -14px;
+}
+
+.pt-content .pt-info {
+  height: 200px;
+  border: solid gray 1px;
+
+}
+
+.assessment-content .form-group {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.assessment-content .form-group input {
+
+}
 
 /********************END PERSONAL TRAINING PAGE**************************/
 
