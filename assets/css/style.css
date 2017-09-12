@@ -10,16 +10,18 @@ Dark Gray:  rgb(56,56,56);
 
 body {
   margin-top: 50px;
-  font-family: 'Raleway', Helvetica, sans-serif;
-  font-size: 16px;
+  /*font-family: 'Raleway', Helvetica, sans-serif;
+  font-size: 16px;*/
   /*background: url('../img/tile.jpg') top left repeat;*/
 }
 
 /*GLOBAL*/
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5,h6, p, a, button, input, label, select, option, li, em {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizelegibility;
   font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(56,56,56);
 }
 
 /*NAVBAR*/
@@ -33,18 +35,12 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 
+
 /*CAROUSEL SECTION*/
+
 
 .slider {
   margin-bottom: 50px;
-}
-
-/*.carousel-inner {
-  height: 400px;
-}*/
-
-.carousel-caption {
-
 }
 
 
@@ -72,31 +68,30 @@ h1,h2,h3,h4,h5,h6 {
 
 .info img {
   position: relative;
-  opacity: 0.2;
+  opacity: 0.4;
   height: 240px;
   width: 100%;
 }
 
 .info h3 {
-  background-color: rgba(56,56,56,.3);
+  background-color: rgba(56,56,56,.8);
   width: 280px;
   padding: 4px;
   color: white;
   text-align: center;
-  font-family: monospace;
   font-weight: bold;
 }
 
 .info h4 {
-  font-family: monospace;
   font-weight: bold;
-  font-size: 1.5em;
-
+  font-size: 1.8em;
+  color: black;
 }
 
 .info p {
-  font-family: monospace;
+  font-size: 1.2em;
   font-weight: bold;
+  color: black;
 }
 
 .info .call:hover img {
@@ -157,22 +152,27 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .amenities .items:hover h3{
-  background: rgb(59,185,76);
+  background: rgba(66,255,27,.8);
   color: white;
 }
 
 /********************************* LOCATION PAGE*************************/
 
-.location-form{
-  background-color: rgb(56,56,56);
-  color: white;
+.location-form {
+
   margin-top: -50px;
   padding-top: 40px;
   padding-bottom: 20px;
 }
 
-.dropdown-menu .active a {
-    background: rgb(59,185,76);
+
+
+
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus {
+    text-decoration: none;
+    background: rgba(66,255,27,.8);
+    outline: 0;
+    color: rgb(56,56,56);
 }
 
 .form-inline input {
@@ -194,9 +194,8 @@ h1,h2,h3,h4,h5,h6 {
   margin: 0;
 }
 
-.location-form li {
-  /*padding: 0;
-  margin: 0;*/
+.location-info h2 {
+  color: rgb(56,56,56);
 }
 
 .row .maps {
@@ -251,10 +250,11 @@ h1,h2,h3,h4,h5,h6 {
   text-align: center;
   color: white;
   text-shadow:
-   -1px -1px 0 #000,
-   1px -1px 0 #000,
-   -1px 1px 0 #000,
-   1px 1px 0 #000;
+   -1px -1px 0 rgb(56,56,56),
+   1px -1px 0 rgb(56,56,56),
+   -1px 1px 0 rgb(56,56,56),
+   1px 1px 0 rgb(56,56,56);
+   padding-top: 20px;
 }
 
 #pass-page-button {
@@ -267,8 +267,8 @@ h1,h2,h3,h4,h5,h6 {
   margin-bottom: 50px;
 }
 
-.guest-pass-form h3,p,label{
-  color: rgba(56,56,56,.8);
+.guest-pass-form h3,p,label, h2, h4{
+  color: rgb(56,56,56);
 }
 
 
@@ -277,6 +277,10 @@ h1,h2,h3,h4,h5,h6 {
 /************************PERSONAL TRAINING PAGE**************************/
 .hero-section-personal-training .jumbotron {
 
+}
+
+.pt-content .container h2, h3, li, p{
+  color: rgb(56,56,56);
 }
 
 .pt-content ul{
@@ -320,6 +324,13 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 /********************END PERSONAL TRAINING PAGE**************************/
+
+
+/**************************CHALLENGE PAGE*******************************/
+
+
+
+/***********************END CHALLENGE PAGE*******************************/
 
 /*FOOTER*/
 
@@ -414,6 +425,18 @@ footer {
     height: 200px;
   }
 
+  .hero-section-challenge .jumbotron {
+      height: 200px;
+  }
+
+  .hero-section-join .jumbotron {
+      height: 200px;
+  }
+
+  .hero-section .guest-pass {
+    height: 200px;
+  }
+
 }
 
 @media only screen and (max-width: 500px) {
@@ -431,6 +454,18 @@ footer {
     height: 200px;
   }
 
+  .hero-section-challenge .jumbotron {
+      height: 200px;
+  }
+
+  .hero-section-join .jumbotron {
+      height: 200px;
+  }
+
+  .hero-section .guest-pass {
+    height: 200px;
+  }
+
 }
 
 @media only screen and (max-width: 570px) {
@@ -444,6 +479,18 @@ footer {
   }
 
   .hero-section-personal-training .jumbotron {
+    height: 200px;
+  }
+
+  .hero-section-challenge .jumbotron {
+      height: 200px;
+  }
+
+  .hero-section-join .jumbotron {
+      height: 200px;
+  }
+
+  .hero-section .guest-pass {
     height: 200px;
   }
 
@@ -466,6 +513,18 @@ footer {
   .hero-section-personal-training .jumbotron {
     height: 200px;
   }
+
+  .hero-section-challenge .jumbotron {
+      height: 200px;
+  }
+
+  .hero-section-join .jumbotron {
+      height: 200px;
+  }
+
+  .hero-section .guest-pass {
+    height: 200px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -482,6 +541,18 @@ footer {
   }
 
   .hero-section-personal-training .jumbotron {
+    height: 300px;
+  }
+
+  .hero-section-challenge .jumbotron {
+      height: 300px;
+  }
+
+  .hero-section-join .jumbotron {
+      height: 300px;
+  }
+
+  .hero-section .guest-pass {
     height: 300px;
   }
 }
@@ -510,6 +581,18 @@ footer {
   .hero-section-personal-training .jumbotron {
     height: 300px;
   }
+
+  .hero-section-challenge .jumbotron {
+      height: 300px;
+  }
+
+  .hero-section-join .jumbotron {
+      height: 300px;
+  }
+
+  .hero-section .guest-pass {
+    height: 300px;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -536,4 +619,27 @@ footer {
   .hero-section-personal-training .jumbotron {
     height: 400px;
   }
+
+  .hero-section-challenge .jumbotron {
+      height: 400px;
+  }
+
+  .hero-section-join .jumbotron {
+      height: 400px;
+  }
+
+   .hero-section .guest-pass {
+     height: 400px;
+   }
+
+   .hero-section h1 {
+
+      padding-top: 5%;
+   }
+
+   /*CREATES DIV OVERLAP*/
+   #this-carousel-id-1 {
+     height: 400px;
+   }
+
 }
