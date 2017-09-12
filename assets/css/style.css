@@ -10,13 +10,11 @@ Dark Gray:  rgb(56,56,56);
 
 body {
   margin-top: 50px;
-  /*font-family: 'Raleway', Helvetica, sans-serif;
-  font-size: 16px;*/
-  /*background: url('../img/tile.jpg') top left repeat;*/
+
 }
 
 /*GLOBAL*/
-h1,h2,h3,h4,h5,h6, p, a, button, input, label, select, option, li, em {
+h1,h2,h3,h4,h5,h6,p,a,button,input,label,select,option,li,em {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizelegibility;
   font-weight: bold;
@@ -103,12 +101,19 @@ h1,h2,h3,h4,h5,h6, p, a, button, input, label, select, option, li, em {
 }
 
 /*CALL TO ACTION SECTION*/
-.call-to-action{
+.call-to-action {
   height: 200px;
   margin: 20px 0 20px 0;
-  background: rgb(59,185,76);
   text-align: center;
+  background: rgb(59,185,76); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgb(59,185,76), rgba(59,185,76,.2)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgb(59,185,76), rgba(59,185,76,.2)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgb(59,185,76), rgba(59,185,76,.2)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgb(59,185,76), rgba(59,185,76,.2)); /* Standard syntax */
+
 }
+
+
 
 .call-to-action button{
   width: 300px;
@@ -123,6 +128,7 @@ h1,h2,h3,h4,h5,h6, p, a, button, input, label, select, option, li, em {
   padding: 0;
   margin: 0;
   border: 1px solid white;
+
 }
 
 .amenities .container h3 {
@@ -156,10 +162,11 @@ h1,h2,h3,h4,h5,h6, p, a, button, input, label, select, option, li, em {
   color: white;
 }
 
+
+
 /********************************* LOCATION PAGE*************************/
 
 .location-form {
-
   margin-top: -50px;
   padding-top: 40px;
   padding-bottom: 20px;
@@ -210,11 +217,11 @@ h1,h2,h3,h4,h5,h6, p, a, button, input, label, select, option, li, em {
 }
 
 .location-info {
-  background-color: gray;
+  background-color: lightgray;
 }
 
 .location-amenities {
-  background-color: rgba(63,255,38,.6);
+  /*background-color: rgba(63,255,38,.6);*/
 }
 
 .location-amenities h2 {
@@ -638,7 +645,7 @@ footer {
    }
 
    /*CREATES DIV OVERLAP*/
-   #this-carousel-id-1 {
+    .drop {
      height: 400px;
    }
 
