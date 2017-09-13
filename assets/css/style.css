@@ -14,12 +14,13 @@ body {
 }
 
 /*GLOBAL*/
-h1,h2,h3,h4,h5,h6,p,a,button,input,label,select,option,li,em {
+h1,h2,h3,h4,h5,h6,p,a,button,input,label,select,option,li,em,span,i {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizelegibility;
   font-weight: bold;
   font-family: 'Open Sans', sans-serif;
   color: rgb(56,56,56);
+
 }
 
 /*NAVBAR*/
@@ -201,9 +202,7 @@ h1,h2,h3,h4,h5,h6,p,a,button,input,label,select,option,li,em {
   margin: 0;
 }
 
-.location-info h2 {
-  color: rgb(56,56,56);
-}
+
 
 .row .maps {
   padding-top: 100px;
@@ -217,7 +216,13 @@ h1,h2,h3,h4,h5,h6,p,a,button,input,label,select,option,li,em {
 }
 
 .location-info {
-  background-color: lightgray;
+  background-color: rgb(56,56,56);
+
+}
+
+.location-info .location-info-content h2,h4,p{
+  color: white;
+
 }
 
 .location-amenities {
@@ -274,9 +279,7 @@ h1,h2,h3,h4,h5,h6,p,a,button,input,label,select,option,li,em {
   margin-bottom: 50px;
 }
 
-.guest-pass-form h3,p,label, h2, h4{
-  color: rgb(56,56,56);
-}
+
 
 
 /*****************************END GUEST PASS PAGE************************/
@@ -286,9 +289,6 @@ h1,h2,h3,h4,h5,h6,p,a,button,input,label,select,option,li,em {
 
 }
 
-.pt-content .container h2, h3, li, p{
-  color: rgb(56,56,56);
-}
 
 .pt-content ul{
   list-style: none;
@@ -423,10 +423,19 @@ footer {
   font-size: 0.8em;
 }
 
+#myModalLabel {
+  color: rgb(56,56,56);
+  text-align: center;
+}
+
+#modal-p {
+  color: rgb(56,56,56);
+  text-align: center;
+}
 /*END MODAL*/
 
 /*MEDIA QUERIES */
-@media only screen and (max-width: 375px) {
+/*@media only screen and (max-width: 375px) {
 
   .hero-section-personal-training .jumbotron {
     height: 200px;
@@ -442,6 +451,17 @@ footer {
 
   .hero-section .guest-pass {
     height: 200px;
+  }
+
+}*/
+
+@media only screen and (max-width: 400px) {
+
+
+  #arrow-location  {
+    font-size: 8.0em;
+    color: rgb(59,185,76);
+    margin-top: -22px;
   }
 
 }
@@ -504,17 +524,13 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
-  #arrow {
-    font-size: 4.0em;
-    color: rgb(59,185,76);
-    padding-top: 60px;
-  }
 
 
   #arrow-location {
+    position:
     font-size: 8.0em;
     color: rgb(59,185,76);
-    padding-top: 10px;
+    padding-top: 0px;
   }
 
   .hero-section-personal-training .jumbotron {
@@ -535,11 +551,11 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
-  #arrow {
+  /*#arrow {
     font-size: 4.0em;
     color: rgb(59,185,76);
     padding-top: 50px;
-  }
+  }*/
 
   #arrow-location {
     font-size: 8.0em;
@@ -565,11 +581,11 @@ footer {
 }
 
 @media only screen and (min-width: 900px) {
-  #arrow {
+  /*#arrow {
     font-size: 8.0em;
     color: rgb(59,185,76);
     padding-top: 170px;
-  }
+  }*/
 
   #arrow-location {
     font-size: 8.0em;
@@ -603,11 +619,11 @@ footer {
 }
 
 @media only screen and (min-width: 1200px) {
-  #arrow {
+  /*#arrow {
     font-size: 8.0em;
     color: rgb(59,185,76);
     padding-top: 320px;
-  }
+  }*/
 
   #arrow-location {
     font-size: 8.0em;
@@ -649,4 +665,21 @@ footer {
      height: 400px;
    }
 
+}
+
+/*TEST FOR TRANSPARENT BUTTON*/
+.semi-transparent-button {
+  display: block;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 8px;
+  width: 80%;
+  max-width: 200px;
+  background: green; /* fallback color for old browsers */background: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  color: red;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-out;
 }
