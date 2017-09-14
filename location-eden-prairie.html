@@ -114,7 +114,7 @@
        <li><i class="fa fa-star fa-1x" aria-hidden="true"></i>Health Insurance Reimbursement</li>
        <li><i class="fa fa-star fa-1x" aria-hidden="true"></i>24/7 Access </li>
      </ul>
-     <button type="button" data-toggle="collapse" class="btn btn-default" data-target="#demo">View Membership Options <span class="caret"></span></button>
+     <button type="button" class="btn btn-default" data-toggle="modal" data-target="#membershipModal">View Membership Options <span class="caret"></span></button>
     </div>
     <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
       <h3>Get Your Eden Prairie Evo Body Full Access 7 Day Pass Today!</h3>
@@ -146,12 +146,7 @@
  </div>
 </section> <!--END -->
 
-<!-- MEMBERSHIP OPTION DROP DOWN -->
-<section id="demo" class="collapse">
-  <div class="container">
-    <h2>Membership Options Go Here</h2>
-  </div>
-</section>
+
 
 <!-- LOCATION INFO SECTION -->
 <section id="location-info">
@@ -254,6 +249,73 @@
 
  </div>
 </footer>
+
+<!--**************************** MEMBERSHIP MODAL ************************** -->
+
+<!-- MODAL
+	================================================== -->
+	<div class="modal fade" id="membershipModal">
+   <div class="modal-dialog modal-lg">
+     <div class="modal-content">
+      <div class="modal-header">
+       <button type="button" class="close" data-dismiss="modal">
+        <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+       </button>
+       <h4 class="modal-title" id="myModalLabel">$0 Enrollment Promotion Going on Now</h4>
+      </div>
+      <div class="modal-body">
+        <h5 class="text-center">Evo Body Membership Options</h5>
+          <table class="table table-striped" id="tblGrid" style="text-align: center">
+            <thead id="tblHead">
+              <tr>
+                <th></th>
+                <th style="text-align: center">Option 1</th>
+                <th style="text-align: center">Option 2</th>
+                <th style="text-align: center">Option 3</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Enrollment Fee</td>
+                <td>$0.00</td>
+                <td>$0.00</td>
+                <td>$0.00</td>
+              </tr>
+               <tr><td>First Month Dues</td>
+                <td>$0.00</td>
+                <td>$0.00</td>
+                <td>$0.00</td>
+              </tr>
+              <tr>
+                <td>Last Month Dues</td>
+                <td>$0.00</td>
+                <td>$0.00</td>
+                <td>$0.00</td>
+              </tr>
+              <tr>
+                <td>Monthly Dues</td>
+                <td>$0.00</td>
+                <td>$0.00</td>
+                <td>$0.00</td>
+              </tr>
+              <tr>
+                <td>Total</td>
+                <td>$0.00</td>
+                <td>$0.00</td>
+                <td>$0.00</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td><button class="btn btn-info btn-sm">Sign Up</button></td>
+                <td><button class="btn btn-info btn-sm">Sign Up</button></td>
+                <td><button class="btn btn-info btn-sm">Sign Up</button></td>
+              </tr>
+            </tbody>
+          </table>
+      </div>
+     </div>
+   </div>
+	</div><!-- modal -->
 
 
 
