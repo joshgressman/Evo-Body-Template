@@ -10,7 +10,7 @@ Dark Gray:  rgb(56,56,56);
 
 body {
   margin-top: 50px;
-  
+
 }
 
 /*GLOBAL*/
@@ -341,8 +341,20 @@ h1,h2,h3,h4,h5,h6,p,a,button,input,label,select,option,li,em,span,i {
 
 
 /**************************CHALLENGE PAGE*******************************/
+  #challenge-details {
+    list-style: none;
+  }
 
+  #challenge-details li{
+    padding:0;
+    margin: 0;
+  }
 
+  #challenge-details i{
+    font-size: 1.0em;
+    padding: 5px;;
+    margin: 0;
+  }
 
 /***********************END CHALLENGE PAGE*******************************/
 
@@ -691,6 +703,7 @@ footer {
   .hero-section-challenge .jumbotron {
       height: 400px;
   }
+
 
   .hero-section-join .jumbotron {
       height: 400px;
