@@ -19,7 +19,7 @@ h1,h2,h3,h4,h5,h6,p,a,button,input,label,select,option,li,em,span,i {
   text-rendering: optimizelegibility;
   font-weight: bold;
   font-family: 'Open Sans', sans-serif;
-  color: rgb(56,56,56);
+  color: rgba(56,56,56,.9);
 
 }
 
@@ -44,6 +44,7 @@ h1,h2,h3,h4,h5,h6,p,a,button,input,label,select,option,li,em,span,i {
 
 
 /*INFO SECTION*/
+
 
 .info a {
   color:inherit;
@@ -125,6 +126,11 @@ h1,h2,h3,h4,h5,h6,p,a,button,input,label,select,option,li,em,span,i {
 
 /*AMENITIES SECTION*/
 
+.amenities {
+  background-color: rgb(56,56,56);
+  padding: 2px 0 43px 0;
+}
+
 .amenities .items {
   padding: 0;
   margin: 0;
@@ -174,13 +180,11 @@ h1,h2,h3,h4,h5,h6,p,a,button,input,label,select,option,li,em,span,i {
 }
 
 
-
-
 .dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus {
     text-decoration: none;
     background: rgba(66,255,27,.8);
     outline: 0;
-    color: rgb(56,56,56);
+    color: rgba(56,56,56,.9);
 }
 
 .form-inline input {
@@ -215,12 +219,12 @@ h1,h2,h3,h4,h5,h6,p,a,button,input,label,select,option,li,em,span,i {
 
 }
 
-.location-info {
+#location-info {
   background-color: rgb(56,56,56);
 
 }
 
-.location-info .location-info-content h2,h4,p{
+#location-info .location-info-content p, h2, h4{
   color: white;
 
 }
@@ -234,6 +238,12 @@ h1,h2,h3,h4,h5,h6,p,a,button,input,label,select,option,li,em,span,i {
 
 }
 
+
+#location-header {
+  padding:0 0 5px 0;
+  margin: 0;
+  color: rgba(56,56,56,.9);
+}
 
 .amenities h3 {
   background-color: rgb(59,185,76);
@@ -257,16 +267,8 @@ h1,h2,h3,h4,h5,h6,p,a,button,input,label,select,option,li,em,span,i {
 /****************************** END LOCATION PAGE*************************/
 
 /*******************************GUEST PASS PAGE**************************/
-
-.hero-section h1 {
-  text-align: center;
-  color: white;
-  text-shadow:
-   -1px -1px 0 rgb(56,56,56),
-   1px -1px 0 rgb(56,56,56),
-   -1px 1px 0 rgb(56,56,56),
-   1px 1px 0 rgb(56,56,56);
-   padding-top: 20px;
+.amenities #pass-amenities {
+  padding: 40px 0 0px 0;
 }
 
 #pass-page-button {
@@ -279,8 +281,13 @@ h1,h2,h3,h4,h5,h6,p,a,button,input,label,select,option,li,em,span,i {
   margin-bottom: 50px;
 }
 
+#pass-header {
+  color: rgb(56,56,56);
+}
 
-
+#pass-sub-head {
+  color: rgb(56,56,56);
+}
 
 /*****************************END GUEST PASS PAGE************************/
 
@@ -338,6 +345,24 @@ h1,h2,h3,h4,h5,h6,p,a,button,input,label,select,option,li,em,span,i {
 
 
 /***********************END CHALLENGE PAGE*******************************/
+
+/**************************BLOG PAGE*******************************/
+  .blog-title {
+    color: rgb(59,185,76);
+  }
+
+  .blog-content {
+      color: rgba(56,56,56,.9);
+  }
+
+  .post .post-body p {
+      color: rgba(56,56,56,.9);
+  }
+
+  .post-body {
+    padding-top: 10px;
+  }
+/***********************END BLOG PAGE*******************************/
 
 /*FOOTER*/
 
@@ -424,12 +449,12 @@ footer {
 }
 
 #myModalLabel {
-  color: rgb(56,56,56);
+  color: rgba(56,56,56,.9);
   text-align: center;
 }
 
 #modal-p {
-  color: rgb(56,56,56);
+  color: rgba(56,56,56,.9);
   text-align: center;
 }
 /*END MODAL*/
@@ -493,6 +518,10 @@ footer {
     height: 200px;
   }
 
+  .hero-section-blog .jumbotron {
+      height: 200px;
+  }
+
 }
 
 @media only screen and (max-width: 570px) {
@@ -521,6 +550,10 @@ footer {
     height: 200px;
   }
 
+  .hero-section-blog .jumbotron {
+      height: 200px;
+  }
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -547,6 +580,10 @@ footer {
 
   .hero-section .guest-pass {
     height: 200px;
+  }
+
+  .hero-section-blog .jumbotron {
+      height: 200px;
   }
 }
 
@@ -577,6 +614,10 @@ footer {
 
   .hero-section .guest-pass {
     height: 300px;
+  }
+
+  .hero-section-blog .jumbotron {
+      height: 300px;
   }
 }
 
@@ -615,6 +656,10 @@ footer {
 
   .hero-section .guest-pass {
     height: 300px;
+  }
+
+  .hero-section-blog .jumbotron {
+      height: 300px;
   }
 }
 
@@ -660,26 +705,13 @@ footer {
       padding-top: 5%;
    }
 
+   .hero-section-blog .jumbotron {
+       height: 400px;
+   }
+
    /*CREATES DIV OVERLAP*/
     .drop {
      height: 400px;
    }
 
-}
-
-/*TEST FOR TRANSPARENT BUTTON*/
-.semi-transparent-button {
-  display: block;
-  box-sizing: border-box;
-  margin: 0 auto;
-  padding: 8px;
-  width: 80%;
-  max-width: 200px;
-  background: green; /* fallback color for old browsers */background: rgba(255, 255, 255, 0.9);
-  border-radius: 8px;
-  color: red;
-  text-align: center;
-  text-decoration: none;
-  letter-spacing: 1px;
-  transition: all 0.3s ease-out;
 }
