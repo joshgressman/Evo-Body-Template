@@ -356,6 +356,13 @@ h1,h2,h3,h4,h5,h6,p,a,button,input,label,select,option,li,em,span,i {
     margin: 0;
   }
 
+  #success-stories {
+    height: 400px;
+    background-color: rgb(56,56,56);
+    color: white;
+    
+  }
+
 /***********************END CHALLENGE PAGE*******************************/
 
 /**************************BLOG PAGE*******************************/
