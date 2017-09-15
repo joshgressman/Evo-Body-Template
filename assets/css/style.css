@@ -104,24 +104,30 @@ h1,h2,h3,h4,h5,h6,p,a,button,input,label,select,option,li,em,span,i {
 
 /*CALL TO ACTION SECTION*/
 .call-to-action {
-  height: 200px;
-  margin: 20px 0 20px 0;
+  height: 60px;
+  padding-top: 8px;
+  margin-bottom: -20px;
   text-align: center;
-  background: rgb(59,185,76); /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(rgb(59,185,76), rgba(59,185,76,.2)); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(rgb(59,185,76), rgba(59,185,76,.2)); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(rgb(59,185,76), rgba(59,185,76,.2)); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(rgb(59,185,76), rgba(59,185,76,.2)); /* Standard syntax */
+  background: rgb(59,185,76);
 
 }
 
-
-
-.call-to-action button{
-  width: 300px;
-  padding: 15px;
+#call-to-action-header {
+  display: inline-block;
+  font-size: 1.5em;
+  padding-right: 7px;
 
 }
+
+#call-to-action-button{
+display: inline-block;
+width: 85px;
+font-size: 1.1em;
+padding: 1px;
+margin-top: -7px;
+
+}
+
 
 
 /*AMENITIES SECTION*/
@@ -603,6 +609,10 @@ footer {
 
   .hero-section-blog .jumbotron {
       height: 200px;
+  }
+
+  .call-to-action {
+    height: 100px;
   }
 }
 
