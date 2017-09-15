@@ -146,8 +146,8 @@ margin-top: -7px;
 
 .amenities .container h3 {
   position: absolute;
-  background-color: white;
-  color: rgba(56,56,56,.8);
+  background-color: rgba(255,255,255,.6);
+  color: rgba(56,56,56,.9);
   padding: 6px;
   top: 60%;
   font-size: 1.4em;
@@ -171,8 +171,8 @@ margin-top: -7px;
 }
 
 .amenities .items:hover h3{
-  background: rgba(66,255,27,.8);
-  color: white;
+  background: rgba(66,255,27,.6);
+  color: black;
 }
 
 
@@ -270,6 +270,7 @@ margin-top: -7px;
   margin: 10px;
 }
 
+
 /****************************** END LOCATION PAGE*************************/
 
 /*******************************GUEST PASS PAGE**************************/
@@ -343,8 +344,49 @@ margin-top: -7px;
 
 }
 
+#assessment-item-list {
+  list-style: none;
+  padding: 0px;
+}
+
+#assessment-item-list li {
+  padding: 0;
+}
+
+#assessment-item-list i {
+  font-size: 1.0em;
+  padding: 5px;;
+  margin: 0;
+}
+
+#assessment-form-header {
+  color: rgb(56,56,56);
+}
 /********************END PERSONAL TRAINING PAGE**************************/
 
+/*************************** GROUP FITNESS PAGE *************************/
+
+#group-fitness-classes {
+  margin-top: 40px;
+}
+
+#group-fitness-classes .class{
+  background-color: rgb(56,56,56);
+  border: solid white 10px;
+}
+
+#group-fitness-classes .class h3{
+   background-color: rgb(59,185,76);
+   padding: 4px;
+   color: white;
+}
+
+#group-fitness-classes .class p{
+   color: white;
+   padding-top: 8px;
+}
+
+/*************************** GROUP FITNESS PAGE *************************/
 
 /**************************CHALLENGE PAGE*******************************/
   #challenge-details {
@@ -690,6 +732,10 @@ footer {
   .hero-section-blog .jumbotron {
       height: 300px;
   }
+
+  #club-info-images {
+    padding-top: 60px;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -742,6 +788,10 @@ footer {
    /*CREATES DIV OVERLAP*/
     .drop {
      height: 400px;
+   }
+
+   #club-info-images {
+     padding-top: 60px;
    }
 
 }
