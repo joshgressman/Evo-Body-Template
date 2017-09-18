@@ -214,9 +214,9 @@ margin-top: -7px;
 
 
 
-.row .maps {
+/*.row .maps {
   padding-top: 100px;
-}
+}*/
 
 .location-form i {
   font-size: 1.0em;
@@ -232,6 +232,11 @@ margin-top: -7px;
 
 #location-info .location-info-content p, h2, h4{
   color: white;
+
+}
+
+#location-info .location-info-content {
+  padding-bottom: 20px;
 
 }
 
@@ -272,6 +277,14 @@ margin-top: -7px;
 
 
 /****************************** END LOCATION PAGE*************************/
+
+/******************************** JOIN NOW PAGE **************************/
+
+#membership-promotion {
+  font-size: 1.3em;
+}
+
+/****************************** END JOIN NOW PAGE ************************/
 
 /*******************************GUEST PASS PAGE**************************/
 .amenities #pass-amenities {
@@ -479,6 +492,12 @@ margin-top: -7px;
     display: inline;
     margin-left: 30%;
   }
+
+  #application-form {
+    border: solid 1px lightgray;
+    padding: 20px 0 20px 0;
+    margin-top: 10px;
+  }
 /********************** END CAREERS PAGE **************************/
 
 
@@ -607,6 +626,7 @@ footer {
     margin-top: -22px;
   }
 
+
 }
 
 @media only screen and (max-width: 500px) {
@@ -639,6 +659,7 @@ footer {
   .hero-section-blog .jumbotron {
       height: 200px;
   }
+
 
 }
 
@@ -707,6 +728,7 @@ footer {
   .call-to-action {
     height: 100px;
   }
+
 }
 
 @media only screen and (min-width: 768px) {
