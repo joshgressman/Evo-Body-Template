@@ -375,6 +375,10 @@ margin-top: -7px;
 #assessment-form-header {
   color: rgb(56,56,56);
 }
+
+#pt-page-header {
+    color: rgb(56,56,56);
+}
 /********************END PERSONAL TRAINING PAGE**************************/
 
 /*************************** GROUP FITNESS PAGE *************************/
@@ -415,7 +419,10 @@ margin-top: -7px;
 /**************************CHALLENGE PAGE*******************************/
   #challenge-details {
     list-style: none;
+    padding:0;
+    margin: 0;
   }
+
 
   #challenge-details li{
     padding:0;
@@ -424,7 +431,7 @@ margin-top: -7px;
 
   #challenge-details i{
     font-size: 1.0em;
-    padding: 5px;;
+    padding: 5px;
     margin: 0;
   }
 
@@ -471,15 +478,15 @@ margin-top: -7px;
   }
 
     .listing {
-    border-top: solid gray 1px;
-    border-bottom: solid gray 1px;
-    padding: 10px 5px 10px 5px;
+    border-top: solid lightgray 1px;
+    border-bottom: solid lightgray 1px;
+    padding: 10px 5px 10px 25px;
   }
 
   .position-title {
     display: inline;
     font-weight: bold;
-    font-size: 1.4em;
+    font-size: 1.2em;
     text-decoration: underline;
     color: black;
   }
@@ -498,6 +505,23 @@ margin-top: -7px;
     padding: 20px 0 20px 0;
     margin-top: 10px;
   }
+
+  #job-listings {
+    padding-top: 25px;
+  }
+
+  #avl-positions {
+    background-color: rgb(56,56,56);
+  }
+
+  #avl-positions h3 {
+    color: rgb(59,185,76);
+    padding: 5px 0 5px 5px;
+    margin: 0;
+    font-size: 1.8em;
+  }
+
+
 /********************** END CAREERS PAGE **************************/
 
 
