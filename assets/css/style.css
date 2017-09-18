@@ -386,6 +386,19 @@ margin-top: -7px;
    padding-top: 8px;
 }
 
+#class-pass-img img {
+ position: relative;
+
+}
+
+#class-pass-btn {
+ position: absolute;
+ top: 170px;
+ left: 90px
+}
+
+
+
 /*************************** GROUP FITNESS PAGE *************************/
 
 /**************************CHALLENGE PAGE*******************************/

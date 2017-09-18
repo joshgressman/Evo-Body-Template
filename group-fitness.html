@@ -93,12 +93,12 @@
     </div>
     <div class="col-lg-6  col-md-6 col-sm-12 col-xs-12">
      <div class="row">
-       <div class="col-md-5 col-md-offset-1" style="border: solid black 2px; height:200px;">
+       <div class="col-md-5 col-md-offset-1">
          Group Fitness Schedule
        </div>
-       <div class="col-md-5" style="border: solid black 2px; height:200px;">
-         <h3>Get your class pass</h3>
-        <button>Get Pass</button>
+       <div class="col-md-5" >
+         <img id="class-pass-img" class="img-responsive" src="./assets/img/class-pass.png">
+         <button id="class-pass-btn" class="btn btn-info" data-toggle="modal" data-target="#classPassModal">Get Pass</button>
        </div>
      </div>
     </div>
@@ -163,6 +163,64 @@
  </div>
 </footer>
 
+<!-- MODAL
+	================================================== -->
+	<div class="modal fade" id="classPassModal">
+   <div class="modal-dialog">
+     <div class="modal-content">
+      <div class="modal-header">
+       <button type="button" class="close" data-dismiss="modal">
+        <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+       </button>
+       <h4 class="modal-title" id="myModalLabel"><i class="fa fa-thumbs-up"></i>Get Your FREE 7 Day Class Pass</h4>
+      </div>
+      <div class="modal-body">
+       <p id="modal-p">Full access pass includes unlimited club visits, kids room and group fitness classes </p>
+       <form>
+         <div class="form-group row">
+           <h4 id="assessment-form-header">Optimal Results Start Here</h4>
+           <label for="first-name" class="sr-only">First Name:</label>
+           <div class="col-sm-5">
+         <input type="text" class="form-control" id="assessment-first" placeholder="First Name">
+         </div>
+         <label for="last-name" class="sr-only">Last Name:</label>
+         <div class="col-sm-5">
+       <input type="text" class="form-control" id="assessment-last" placeholder="Last Name">
+       </div>
+         </div>
+         <div class="form-group row">
+           <label for="email" class="sr-only">Email:</label>
+           <div class="col-sm-5">
+         <input type="email" class="form-control" id="assessment-email" placeholder="Email">
+         </div>
+         <label for="phone" class="sr-only">Phone:</label>
+         <div class="col-sm-5">
+       <input type="phone" class="form-control" id="assessment-phone" placeholder="Phone">
+       </div>
+         </div>
+         <div class="form-group row">
+           <label for="location" class="sr-only">Location:</label>
+           <div class="col-sm-5">
+           <select class="form-control">
+          <option>-- Please Select A Location --</option>
+          <option>Eagan</option>
+          <option>Eden Prairie</option>
+          <option>Lakeville</option>
+          </select>
+         </div>
+         </div>
+        
+         <div class="form-group row">
+          <button type="submit" class="btn btn-success">Submit</button>
+         </div>
+       </form>
+        <hr>
+        <p><em>7 day full access passes expire after 7 days after expiration. Valid for first time guests. Must live within 10 miles of the facility.</em></p>
+        <p class="disclaimer"><em>Privacy Statement: You consent to follow-up voice, text and/or email communications from the Evo Body at the phone numbers and email address given above.</em></p>
+      </div>
+     </div>
+   </div>
+	</div><!-- modal -->
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
