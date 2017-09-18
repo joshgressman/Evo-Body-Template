@@ -30,7 +30,7 @@ h1,h2,h3,h4,h5,h6,p,a,button,input,label,select,option,li,em,span,i {
 }
 
 .navbar a {
-  font-size: 15px;
+  font-size: 13px;
 }
 
 
@@ -449,6 +449,8 @@ margin-top: -7px;
 
   #careers-img{
     border: solid 10px black;
+    margin-top: 20px;
+    width: 100%;
   }
 
   #careers-list {
@@ -464,8 +466,13 @@ margin-top: -7px;
   .position-title {
     display: inline;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.4em;
     text-decoration: underline;
+    color: black;
+  }
+
+  .position-title:hover {
+    color: lightgray;
   }
 
   .positio-location {
