@@ -397,8 +397,6 @@ margin-top: -7px;
  left: 90px
 }
 
-
-
 /*************************** GROUP FITNESS PAGE *************************/
 
 /**************************CHALLENGE PAGE*******************************/
@@ -443,6 +441,39 @@ margin-top: -7px;
     padding-top: 10px;
   }
 /***********************END BLOG PAGE*******************************/
+
+/************************ CAREERS PAGE ****************************/
+  #career-info-heading {
+    font-size: 1.2em;
+  }
+
+  #careers-img{
+    border: solid 10px black;
+  }
+
+  #careers-list {
+    list-style: none;
+  }
+
+    .listing {
+    border-top: solid gray 1px;
+    border-bottom: solid gray 1px;
+    padding: 10px 5px 10px 5px;
+  }
+
+  .position-title {
+    display: inline;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-decoration: underline;
+  }
+
+  .positio-location {
+    display: inline;
+    margin-left: 30%;
+  }
+/********************** END CAREERS PAGE **************************/
+
 
 /*FOOTER*/
 
