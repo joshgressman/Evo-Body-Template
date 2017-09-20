@@ -68,7 +68,7 @@ h1,h2,h3,h4,h5,h6,p,a,button,input,label,select,option,li,em,span,i {
 
 .info img {
   position: relative;
-  opacity: 0.4;
+  opacity: 0.6;
   height: 240px;
   width: 100%;
 }
@@ -95,7 +95,7 @@ h1,h2,h3,h4,h5,h6,p,a,button,input,label,select,option,li,em,span,i {
 }
 
 .info .call:hover img {
- opacity: .6;
+ opacity: .8;
 }
 
 .info .call:hover h3 {
@@ -166,14 +166,16 @@ margin-top: -7px;
   width: 100%;
 }
 
-.amenities .items:hover img {
-  opacity: 1.0;
-}
+/*AMENTITES HOVER HOME & PASS PAGE*/
 
-.amenities .items:hover h3{
+/*.amenities .items:hover img {
+  opacity: 1.0;
+}*/
+
+/*.amenities .items:hover h3{
   background: rgba(66,255,27,.6);
   color: black;
-}
+}*/
 
 
 
@@ -348,6 +350,7 @@ margin-top: -7px;
 
 }
 
+
 .assessment-content .form-group {
   margin-bottom: 20px;
   margin-top: 10px;
@@ -379,6 +382,28 @@ margin-top: -7px;
 #pt-page-header {
     color: rgb(56,56,56);
 }
+
+#training-icons {
+  background-color: rgb(56,56,56);
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+#training-icons p{
+color: white;
+}
+
+#training-icons h4 {
+   text-align: center;
+   /*padding-left: 25px;*/
+}
+
+#training-icons i {
+  color: white;
+  font-size: 5.0em;
+
+}
+
 /********************END PERSONAL TRAINING PAGE**************************/
 
 /*************************** GROUP FITNESS PAGE *************************/
