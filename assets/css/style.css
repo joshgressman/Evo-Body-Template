@@ -68,7 +68,7 @@ h1,h2,h3,h4,h5,h6,p,a,button,input,label,select,option,li,em,span,i {
 
 .info img {
   position: relative;
-  opacity: 0.6;
+  opacity: 0.5;
   height: 240px;
   width: 100%;
 }
@@ -84,8 +84,9 @@ h1,h2,h3,h4,h5,h6,p,a,button,input,label,select,option,li,em,span,i {
 
 .info h4 {
   font-weight: bold;
-  font-size: 1.8em;
+  font-size: 2.2em;
   color: black;
+  text-decoration: underline;
 }
 
 .info p {
