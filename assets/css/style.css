@@ -278,6 +278,21 @@ margin-top: -7px;
   margin: 10px;
 }
 
+#location-meet-trainers {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(56,56,56);
+  text-align: center;
+  padding: 0 0 2px 0;
+}
+
+#location-meet-trainers p {
+  background-color: rgb(59,185,76);
+  color: white;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
 
 /****************************** END LOCATION PAGE*************************/
 
@@ -285,6 +300,7 @@ margin-top: -7px;
 
 #membership-promotion {
   font-size: 1.3em;
+
 }
 
 /****************************** END JOIN NOW PAGE ************************/
