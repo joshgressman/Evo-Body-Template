@@ -301,6 +301,55 @@ margin-top: -7px;
 
 /****************************** END LOCATION PAGE*************************/
 
+
+/*************************** LOCATION MEET OUR TRAINERS ******************/
+ #meet-our-trainers .bio {
+   background-color: rgb(56,56,56);
+   padding-top: 20px;
+   padding-bottom: 10px;
+   text-align: center;
+ }
+
+  #meet-our-trainers .bio p {
+    color: white;
+    font-size: 1.2em;
+  }
+
+/************************* END LOCATION MEET OUR TRAINERS ****************/
+
+/***********************INDEVIDUAL TRAINER BIO PAGE **********************/
+
+#indevidual-bio-section .ind-header  {
+ padding-bottom: 20px;
+}
+
+
+ #indevidual-bio-section h2 {
+  color: rgb(56,56,56);
+ }
+
+ #indevidual-bio-section h4 {
+  color: rgb(56,56,56);
+ }
+
+ #indevidual-bio-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+ }
+
+ #indevidual-bio-section li {
+  font-size: 1.1em;
+ }
+
+ #indevidual-bio-section img {
+  border: solid 15px rgb(56,56,56);
+ }
+
+
+/******************** END INDEVIDUAL TRAINER BIO PAGE ********************/
+
+
 /******************************** JOIN NOW PAGE **************************/
 
 #membership-promotion {
@@ -367,8 +416,7 @@ margin-top: -7px;
 }
 
 .pt-content .pt-info {
-  height: 200px;
-  border: solid gray 1px;
+
 
 }
 
@@ -483,11 +531,14 @@ color: white;
   }
 
   #success-stories {
-    height: 400px;
+
     background-color: rgb(56,56,56);
     color: white;
-
+    padding-top: 5px;
+    padding-bottom: 20px;
   }
+
+
 
 /***********************END CHALLENGE PAGE*******************************/
 
@@ -800,6 +851,14 @@ footer {
     height: 100px;
   }
 
+  .bio-picture {
+    display: none;
+  }
+
+  .bio {
+    border: solid 1px white;
+  }
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -834,6 +893,7 @@ footer {
   .hero-section-blog .jumbotron {
       height: 300px;
   }
+
 }
 
 @media only screen and (min-width: 900px) {
