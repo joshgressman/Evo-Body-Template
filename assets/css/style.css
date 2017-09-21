@@ -279,11 +279,16 @@ margin-top: -7px;
 }
 
 #location-meet-trainers {
-  margin-top: 20px;
-  margin-bottom: 20px;
+
+
   background-color: rgb(56,56,56);
   text-align: center;
   padding: 0 0 2px 0;
+}
+
+#location-meet-trainers img {
+
+  width: 100%;
 }
 
 #location-meet-trainers p {
