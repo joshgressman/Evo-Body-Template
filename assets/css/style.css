@@ -43,6 +43,8 @@ h1,h2,h3,h4,h5,h6,p,a,button,input,label,select,option,li,em,span,i {
 }
 
 
+
+
 /*INFO SECTION*/
 
 
@@ -106,10 +108,10 @@ h1,h2,h3,h4,h5,h6,p,a,button,input,label,select,option,li,em,span,i {
 /*CALL TO ACTION SECTION*/
 .call-to-action {
   height: 60px;
-  padding-top: 8px;
+  padding-top: 14px;
   margin-bottom: -20px;
   text-align: center;
-  background: rgb(59,185,76);
+  background: rgba(66,255,27,.6);
 
 }
 
@@ -177,6 +179,22 @@ margin-top: -7px;
   background: rgba(66,255,27,.6);
   color: black;
 }*/
+
+#why-join-section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+#why-join-section h2 {
+  color:rgb(56,56,56);
+}
+
+#why-join-section i {
+   color: rgba(66,255,27,.6);
+   font-size: 5.0em;
+}
+
 
 
 
@@ -859,6 +877,8 @@ footer {
     border: solid 1px white;
   }
 
+
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -893,6 +913,8 @@ footer {
   .hero-section-blog .jumbotron {
       height: 300px;
   }
+
+
 
 }
 
@@ -937,9 +959,7 @@ footer {
       height: 300px;
   }
 
-  #club-info-images {
-    padding-top: 60px;
-  }
+
 }
 
 @media only screen and (min-width: 1200px) {
