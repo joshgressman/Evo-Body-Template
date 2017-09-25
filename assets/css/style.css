@@ -877,7 +877,11 @@ footer {
     border: solid 1px white;
   }
 
-
+.location-details {
+  
+  /*margin-bottom: 10px;*/
+  padding-bottom: 10px;
+}
 
 }
 
