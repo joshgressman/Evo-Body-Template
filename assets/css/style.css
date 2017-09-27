@@ -169,6 +169,12 @@ margin-top: -7px;
   width: 100%;
 }
 
+.amenities-background {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; height:160px;
+}
+
 /*AMENTITES HOVER HOME & PASS PAGE*/
 
 /*.amenities .items:hover img {
@@ -270,6 +276,9 @@ margin-top: -7px;
 
 }
 
+#multi-access {
+  height: 345px;
+}
 
 #location-header {
   padding:0 0 5px 0;
@@ -878,7 +887,7 @@ footer {
   }
 
 .location-details {
-  
+
   /*margin-bottom: 10px;*/
   padding-bottom: 10px;
 }
