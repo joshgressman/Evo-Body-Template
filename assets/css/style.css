@@ -536,6 +536,12 @@ color: white;
  left: 90px
 }
 
+#pt-hero-img {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; height: 400px;
+}
+
 /*************************** GROUP FITNESS PAGE *************************/
 
 /**************************CHALLENGE PAGE*******************************/
@@ -748,256 +754,6 @@ footer {
 /**************************** MEDIA QUERIES  *********************************/
 
 
-/*@media only screen and (max-width: 400px) {
-
-  #arrow-location  {
-    font-size: 8.0em;
-    color: rgb(59,185,76);
-    margin-top: -22px;
-  }
-
-
-}
-
-@media only screen and (max-width: 500px) {
-  #arrow {
-    font-size: 4.0em;
-    color: rgb(59,185,76);
-    padding-top: 60px;
-  }
-  .carousel-caption {
-    top: 30%;
-
-  }
-
-  .hero-section-personal-training .jumbotron {
-    height: 200px;
-  }
-
-  .hero-section-challenge .jumbotron {
-      height: 200px;
-  }
-
-  .hero-section-join .jumbotron {
-      height: 200px;
-  }
-
-  .hero-section .guest-pass {
-    height: 200px;
-  }
-
-  .hero-section-blog .jumbotron {
-      height: 200px;
-  }
-
-
-}
-
-@media only screen and (max-width: 570px) {
-  .fa {
-      margin-top: 30px;
-      padding: 8px;
-      font-size: 12.5px;
-      width: 25px;
-      text-align: center;
-      text-decoration: none;
-  }
-
-  .hero-section-personal-training .jumbotron {
-    height: 200px;
-  }
-
-  .hero-section-challenge .jumbotron {
-      height: 200px;
-  }
-
-  .hero-section-join .jumbotron {
-      height: 200px;
-  }
-
-  .hero-section .guest-pass {
-    height: 200px;
-  }
-
-  .hero-section-blog .jumbotron {
-      height: 200px;
-  }
-
-}
-
-@media only screen and (max-width: 600px) {
-
-
-  #arrow-location {
-    position:
-    font-size: 8.0em;
-    color: rgb(59,185,76);
-    padding-top: 0px;
-  }
-
-  .hero-section-personal-training .jumbotron {
-    height: 200px;
-  }
-
-  .hero-section-challenge .jumbotron {
-      height: 200px;
-  }
-
-  .hero-section-join .jumbotron {
-      height: 200px;
-  }
-
-  .hero-section .guest-pass {
-    height: 200px;
-  }
-
-  .hero-section-blog .jumbotron {
-      height: 200px;
-  }
-
-  .call-to-action {
-    height: 100px;
-  }
-
-  .bio-picture {
-    display: none;
-  }
-
-  .bio {
-    border: solid 1px white;
-  }
-
-.location-details {
-
-
-  padding-bottom: 10px;
-}
-
-}
-
-@media only screen and (min-width: 768px) {
-
-  #arrow-location {
-    font-size: 8.0em;
-    color: rgb(59,185,76);
-    padding-top: 90px;
-  }
-
-  .hero-section-personal-training .jumbotron {
-    height: 300px;
-  }
-
-  .hero-section-challenge .jumbotron {
-      height: 300px;
-  }
-
-  .hero-section-join .jumbotron {
-      height: 300px;
-  }
-
-  .hero-section .guest-pass {
-    height: 300px;
-  }
-
-  .hero-section-blog .jumbotron {
-      height: 300px;
-  }
-
-}
-
-@media only screen and (min-width: 900px) {
-
-  #arrow-location {
-    font-size: 8.0em;
-    color: rgb(59,185,76);
-    padding-top: 90px;
-  }
-
-  .footer .icons {
-    padding-left: 100px;
-  }
-
-  .amenities-block {
-    padding-left: 15%;
-  }
-
-  .hero-section-personal-training .jumbotron {
-    height: 300px;
-  }
-
-  .hero-section-challenge .jumbotron {
-      height: 300px;
-  }
-
-  .hero-section-join .jumbotron {
-      height: 300px;
-  }
-
-  .hero-section .guest-pass {
-    height: 300px;
-  }
-
-  .hero-section-blog .jumbotron {
-      height: 300px;
-  }
-
-}
-
-@media only screen and (min-width: 1200px) {
-
-  #arrow-location {
-    font-size: 8.0em;
-    color: rgb(59,185,76);
-    padding-top: 190px;
-  }
-
-  .footer .icons {
-    padding-left: 200px;
-  }
-
-  .amenities-block {
-    padding-left: 17%;
-  }
-
-  .hero-section-personal-training .jumbotron {
-    height: 400px;
-  }
-
-  .hero-section-challenge .jumbotron {
-      height: 400px;
-  }
-
-
-  .hero-section-join .jumbotron {
-      height: 400px;
-  }
-
-   .hero-section .guest-pass {
-     height: 400px;
-   }
-
-   .hero-section h1 {
-
-      padding-top: 5%;
-   }
-
-   .hero-section-blog .jumbotron {
-       height: 400px;
-   }
-
-
-    .drop {
-     height: 400px;
-   }
-
-   #club-info-images {
-     padding-top: 60px;
-   }
-
-}*/
-
-/*UPDATED MEDIA QUERIES*/
-
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   #arrow-location  {
@@ -1023,6 +779,12 @@ footer {
 
   }
 
+  #pt-hero-img {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; height: 200px;
+  }
+
 
 }
 
@@ -1044,6 +806,7 @@ footer {
 #myModal {
   width: 370px;
 }
+
 
 }
 
@@ -1107,6 +870,8 @@ div.navbar-header {
   color: rgb(56,56,56);
 
 }
+
+
 
 }
 
@@ -1218,6 +983,10 @@ iPad 3
  #club-info-images {
    padding-top: 60px;
  }
+
+ #myModal {
+   width: 800px;
+ }
 }
 
 /* Large screens ----------- */
@@ -1269,6 +1038,10 @@ iPad 3
 
    #club-info-images {
      padding-top: 60px;
+   }
+
+   #myModal {
+     width: 768px;
    }
 }
 
