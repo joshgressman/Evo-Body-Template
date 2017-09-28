@@ -745,29 +745,10 @@ footer {
 }
 /*END MODAL*/
 
-/*MEDIA QUERIES */
-/*@media only screen and (max-width: 375px) {
+/**************************** MEDIA QUERIES  *********************************/
 
-  .hero-section-personal-training .jumbotron {
-    height: 200px;
-  }
 
-  .hero-section-challenge .jumbotron {
-      height: 200px;
-  }
-
-  .hero-section-join .jumbotron {
-      height: 200px;
-  }
-
-  .hero-section .guest-pass {
-    height: 200px;
-  }
-
-}*/
-
-@media only screen and (max-width: 400px) {
-
+/*@media only screen and (max-width: 400px) {
 
   #arrow-location  {
     font-size: 8.0em;
@@ -888,18 +869,13 @@ footer {
 
 .location-details {
 
-  /*margin-bottom: 10px;*/
+
   padding-bottom: 10px;
 }
 
 }
 
 @media only screen and (min-width: 768px) {
-  /*#arrow {
-    font-size: 4.0em;
-    color: rgb(59,185,76);
-    padding-top: 50px;
-  }*/
 
   #arrow-location {
     font-size: 8.0em;
@@ -927,16 +903,9 @@ footer {
       height: 300px;
   }
 
-
-
 }
 
 @media only screen and (min-width: 900px) {
-  /*#arrow {
-    font-size: 8.0em;
-    color: rgb(59,185,76);
-    padding-top: 170px;
-  }*/
 
   #arrow-location {
     font-size: 8.0em;
@@ -972,15 +941,9 @@ footer {
       height: 300px;
   }
 
-
 }
 
 @media only screen and (min-width: 1200px) {
-  /*#arrow {
-    font-size: 8.0em;
-    color: rgb(59,185,76);
-    padding-top: 320px;
-  }*/
 
   #arrow-location {
     font-size: 8.0em;
@@ -1022,7 +985,7 @@ footer {
        height: 400px;
    }
 
-   /*CREATES DIV OVERLAP*/
+
     .drop {
      height: 400px;
    }
@@ -1031,4 +994,343 @@ footer {
      padding-top: 60px;
    }
 
+}*/
+
+/*UPDATED MEDIA QUERIES*/
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  #arrow-location  {
+    padding-top: 50px;
+  }
+
+  div.navbar-header {
+    width: 385px;
+    padding:0;
+    margin:0;
+  }
+
+  .location-details {
+    padding-bottom: 10px;
+  }
+
+  .location-amenities-title {
+    margin-top: -10px;
+  }
+
+  .location-amenities-title h2{
+    color: rgb(56,56,56);
+
+  }
+
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+
+#arrow-location  {
+  /*font-size: 8.0em;
+  color: rgb(59,185,76);*/
+  padding-top: 60px;
+}
+
+.call-to-action{
+  margin-bottom: 20px;
+  height: 80px;
+}
+
+#myModal {
+  width: 370px;
+}
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+#arrow-location  {
+
+  padding-top: 40px;
+}
+
+div.navbar-header {
+  width: 310px;
+  padding:0;
+  margin:0;
+}
+
+/*HOME PAGE INFO*/
+.info img {
+  position: relative;
+  opacity: 0.5;
+  height: 200px;
+  width: 100%;
+}
+
+.info h3 {
+  background-color: rgba(56,56,56,.8);
+  width: 200px;
+  padding: 4px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.info h4 {
+  font-weight: bold;
+  font-size: 1.4em;
+  color: black;
+  text-decoration: underline;
+}
+
+.info p {
+  font-size: .8em;
+  font-weight: bold;
+  color: black;
+}
+
+.call-to-action{
+  margin-bottom: 20px;
+}
+
+#myModal {
+  width: 320px;
+}
+
+.location-amenities-title {
+  margin-top: -20px;
+}
+
+.location-amenities-title h2{
+  color: rgb(56,56,56);
+
+}
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+#arrow-location  {
+  font-size: 8.0em;
+  color: rgb(59,185,76);
+  margin-top: -22px;
+}
+
+#myModal {
+  width: 768px;
+}
+
+.navbar-collapse.collapse {
+      display: none !important;
+  }
+  .navbar-collapse.collapse.in {
+      display: block !important;
+  }
+  .navbar-header .collapse, .navbar-toggle {
+      display:block !important;
+  }
+  .navbar-header {
+      float:none;
+  }
+
+  .location-amenities-title {
+    margin-top: -10px;
+  }
+
+  .location-amenities-title h2{
+    color: rgb(56,56,56);
+
+  }
+
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+}
+/**********
+iPad 3
+**********/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+#arrow-location {
+  font-size: 8.0em;
+  color: rgb(59,185,76);
+  padding-top: 190px;
+}
+
+.footer .icons {
+  padding-left: 200px;
+}
+
+.amenities-block {
+  padding-left: 17%;
+}
+
+.hero-section-personal-training .jumbotron {
+  height: 400px;
+}
+
+.hero-section-challenge .jumbotron {
+    height: 400px;
+}
+
+
+.hero-section-join .jumbotron {
+    height: 400px;
+}
+
+ .hero-section .guest-pass {
+   height: 400px;
+ }
+
+ .hero-section h1 {
+
+    padding-top: 5%;
+ }
+
+ .hero-section-blog .jumbotron {
+     height: 400px;
+ }
+
+
+  .drop {
+   height: 400px;
+ }
+
+ #club-info-images {
+   padding-top: 60px;
+ }
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+  #arrow-location {
+    font-size: 8.0em;
+    color: rgb(59,185,76);
+    padding-top: 190px;
+  }
+
+  .footer .icons {
+    padding-left: 200px;
+  }
+
+  .amenities-block {
+    padding-left: 17%;
+  }
+
+  .hero-section-personal-training .jumbotron {
+    height: 400px;
+  }
+
+  .hero-section-challenge .jumbotron {
+      height: 400px;
+  }
+
+
+  .hero-section-join .jumbotron {
+      height: 400px;
+  }
+
+   .hero-section .guest-pass {
+     height: 400px;
+   }
+
+   .hero-section h1 {
+
+      padding-top: 5%;
+   }
+
+   .hero-section-blog .jumbotron {
+       height: 400px;
+   }
+
+
+    .drop {
+     height: 400px;
+   }
+
+   #club-info-images {
+     padding-top: 60px;
+   }
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* iPhone 6 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* iPhone 6+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* Samsung Galaxy S3 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* Samsung Galaxy S4 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+/* Samsung Galaxy S5 ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
 }
