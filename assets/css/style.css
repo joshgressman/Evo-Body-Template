@@ -678,6 +678,19 @@ color: white;
 
 /********************** END CAREERS PAGE **************************/
 
+/********************** JOIN LOCATION PAGE ***********************/
+
+.join-location-section h2,h4,p {
+  color:rgb(56,56,56);
+}
+
+.join-header-text {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+/******************** END JOIN LOCATION PAGE ***********************/
+
 
 /*FOOTER*/
 
