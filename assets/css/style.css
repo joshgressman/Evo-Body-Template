@@ -153,7 +153,7 @@ margin-top: -7px;
   color: rgba(56,56,56,.9);
   padding: 6px;
   top: 60%;
-  font-size: 1.4em;
+  font-size: 1.7em;
 }
 .amenities .amenities-content  {
   position: absolute;
@@ -193,7 +193,11 @@ margin-top: -7px;
   background-color: rgb(56,56,56);
 }
 
-#why-join-section h1,h2,p {
+#why-join-section h1,h2 {
+  color:white;
+}
+
+#why-join-section p {
   color:white;
 }
 
@@ -675,6 +679,13 @@ color: white;
     font-size: 1.8em;
   }
 
+  .license p {
+    padding-left: 4px;
+  }
+
+  .license label {
+    padding-left: 30px;
+  }
 
 /********************** END CAREERS PAGE **************************/
 
