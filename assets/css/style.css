@@ -70,7 +70,7 @@ h1,h2,h3,h4,h5,h6,p,a,button,input,label,select,option,li,em,span,i {
 
 .info img {
   position: relative;
-  opacity: 0.5;
+  opacity: 0.3;
   height: 240px;
   width: 100%;
 }
@@ -98,7 +98,7 @@ h1,h2,h3,h4,h5,h6,p,a,button,input,label,select,option,li,em,span,i {
 }
 
 .info .call:hover img {
- opacity: .8;
+ opacity: .9;
 }
 
 .info .call:hover h3 {
@@ -143,7 +143,7 @@ margin-top: -7px;
 .amenities .items {
   padding: 0;
   margin: 0;
-  border: 1px solid white;
+  border: 2px solid white;
 
 }
 
@@ -190,10 +190,11 @@ margin-top: -7px;
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
+  background-color: rgb(56,56,56);
 }
 
-#why-join-section h2 {
-  color:rgb(56,56,56);
+#why-join-section h1,h2,p {
+  color:white;
 }
 
 #why-join-section i {
@@ -378,10 +379,25 @@ margin-top: -7px;
 
 
 /******************************** JOIN NOW PAGE **************************/
+.privacy {
+  color:rgb(56,56,56);
+}
+
 
 #membership-promotion {
   font-size: 1.3em;
 
+}
+
+#location-dropdown li {
+  list-style: none;
+
+}
+
+#location-dropdown a:hover{
+    color: rgba(56,56,56,.5);
+    text-decoration: underline;
+    text-decoration: none;
 }
 
 /****************************** END JOIN NOW PAGE ************************/
@@ -422,6 +438,10 @@ margin-top: -7px;
   padding: 0;
 }
 
+.pt-content p{
+  color: rgb(56,56,56);
+}
+
 .pt-content li {
   padding: 0;
 }
@@ -447,6 +467,9 @@ margin-top: -7px;
 
 }
 
+.assessment-content p {
+  color: rgb(56,56,56);
+}
 
 .assessment-content .form-group {
   margin-bottom: 20px;
@@ -785,6 +808,9 @@ footer {
     -o-background-size: cover; height: 200px;
   }
 
+  #home-amenities-large {
+   display: none;
+ }
 
 }
 
@@ -807,6 +833,9 @@ footer {
   width: 370px;
 }
 
+#home-amenities-large {
+ display: none;
+}
 
 }
 
@@ -871,7 +900,9 @@ div.navbar-header {
 
 }
 
-
+#home-amenities-large {
+ display: none;
+}
 
 }
 
@@ -910,7 +941,9 @@ div.navbar-header {
 
   }
 
-
+   #home-amenities-large {
+    display: none;
+  }
 }
 
 /* iPads (landscape) ----------- */
@@ -987,6 +1020,20 @@ iPad 3
  #myModal {
    width: 800px;
  }
+
+ .call-to-action {
+   height: 60px;
+   padding-top: 10px;
+   margin-bottom: -20px;
+   text-align: center;
+   background: rgba(66,255,27,.6);
+ }
+
+ #home-amenities-large {
+  display: block;
+
+}
+
 }
 
 /* Large screens ----------- */
@@ -1043,6 +1090,8 @@ iPad 3
    #myModal {
      width: 768px;
    }
+
+
 }
 
 /* iPhone 4 ----------- */
