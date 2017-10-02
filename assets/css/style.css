@@ -697,9 +697,17 @@ color: white;
     padding-left: 30px;
   }
 
+  #application-section {
+    padding-top: 40px;
+  }
+
 /********************** END CAREERS PAGE **************************/
 
 /********************** JOIN LOCATION PAGE ***********************/
+.join-location-section {
+  padding-top: 50px;
+}
+
 
 .join-location-section h2,h4,p {
   color:rgb(56,56,56);
