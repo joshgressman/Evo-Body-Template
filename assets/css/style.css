@@ -707,18 +707,30 @@ color: white;
 
 footer {
   margin-top: 30px;
-  background-color: rgb(248,248,248);
+  background-color: black;
   border-top: solid 8px rgb(112,112,112);
-  height: 120px;
+  /*height: 120px;*/
 }
 
-.footer span {
-  font-size: 12px;
-  position: absolute;
-  left: 50px;
-  top: 30px;
+.footer li {
+  color: white;
+  text-decoration: underline;
 }
 
+.footer li:hover {
+  color: rgb(56,56,56);
+  text-decoration: underline;
+}
+
+.footer span,p {
+  font-size: 10px;
+  text-align: center;
+  color: white;
+}
+
+ .footer-list {
+   padding-top: 20px;
+ }
 
 /*SOCIAL MEDIA ICONS*/
 /* Style all font awesome icons */
@@ -1180,3 +1192,5 @@ iPad 3
 @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
 /* Styles */
 }
+
+/*********************************** TEST FOR DARK FOOTER *********************/
