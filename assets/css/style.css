@@ -282,6 +282,10 @@ margin-top: -7px;
 
 }
 
+#location-header-h2 {
+  color: rgb(56,56,56);
+}
+
 .location-amenities {
   /*background-color: rgba(63,255,38,.6);*/
 }
@@ -730,8 +734,9 @@ footer {
   /*height: 120px;*/
 }
 
-.footer li {
+.footer a {
   color: white;
+  font-size: 12px;
   /*text-decoration: underline;*/
 }
 
