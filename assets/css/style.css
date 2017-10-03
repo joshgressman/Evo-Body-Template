@@ -174,16 +174,7 @@ margin-top: -7px;
   -o-background-size: cover; height:160px;
 }
 
-/*AMENTITES HOVER HOME & PASS PAGE*/
 
-/*.amenities .items:hover img {
-  opacity: 1.0;
-}*/
-
-/*.amenities .items:hover h3{
-  background: rgba(66,255,27,.6);
-  color: black;
-}*/
 
 #why-join-section {
   padding-top: 20px;
@@ -244,10 +235,6 @@ margin-top: -7px;
 }
 
 
-
-/*.row .maps {
-  padding-top: 100px;
-}*/
 
 .location-form i {
   font-size: 1.0em;
@@ -343,7 +330,11 @@ margin-top: -7px;
   font-size: 1.3em;
 }
 
-
+.directions {
+  background-color: gray;
+  padding: 4px;
+  width: 35%;
+}
 /****************************** END LOCATION PAGE*************************/
 
 
@@ -886,7 +877,7 @@ footer {
 }
 
 .call-to-action{
-  margin-bottom: 20px;
+  margin-bottom: 4px;
   height: 80px;
 }
 
@@ -897,6 +888,21 @@ footer {
 #home-amenities-large {
  display: none;
 }
+
+/*REMOVE MARGIN UNDER CAROUSEL IMG */
+.info {
+  margin-top: -68px;
+}
+
+#meet-our-trainers .bio img {
+  display: none;
+}
+
+#meet-our-trainers br {
+  display: none;
+}
+
+
 
 }
 
@@ -945,7 +951,8 @@ div.navbar-header {
 }
 
 .call-to-action{
-  margin-bottom: 20px;
+  margin-bottom: 1px;
+  height: 100px;
 }
 
 #myModal {
@@ -963,6 +970,23 @@ div.navbar-header {
 
 #home-amenities-large {
  display: none;
+}
+
+.info {
+  margin-top: -65px;
+}
+
+#meet-our-trainers .bio img {
+  display: none;
+}
+
+#meet-our-trainers br {
+  display: none;
+}
+
+
+#why-join-section {
+  padding-bottom: 40px;
 }
 
 }
@@ -1005,11 +1029,27 @@ div.navbar-header {
    #home-amenities-large {
     display: none;
   }
+
+  #meet-our-trainers .bio img {
+    display: block;
+  }
+
+  #meet-our-trainers br {
+    display: block;
+  }
 }
 
 /* iPads (landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
 /* Styles */
+#meet-our-trainers .bio img {
+  display: block;
+}
+
+#meet-our-trainers br {
+  display: block;
+}
+
 }
 
 /* iPads (portrait) ----------- */
@@ -1095,6 +1135,16 @@ iPad 3
 
 }
 
+#meet-our-trainers .bio img {
+  display: block;
+}
+
+#meet-our-trainers br {
+  display: block;
+}
+
+
+
 }
 
 /* Large screens ----------- */
@@ -1151,6 +1201,11 @@ iPad 3
    #myModal {
      width: 768px;
    }
+
+   #meet-our-trainers br {
+     display: block;
+   }
+
 
 
 }
