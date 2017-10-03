@@ -143,8 +143,7 @@ margin-top: -7px;
 .amenities .items {
   padding: 0;
   margin: 0;
-  border: 2px solid white;
-
+  border: 1px solid white;
 }
 
 .amenities .container h3 {
