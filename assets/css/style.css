@@ -1092,6 +1092,14 @@ div.navbar-header {
   #meet-our-trainers br {
     display: none;
   }
+
+  #group-last {
+    margin: 0px;
+  }
+
+  #group-phone {
+    margin: 0px;
+  }
 }
 
 /* iPads (landscape) ----------- */
@@ -1105,11 +1113,14 @@ div.navbar-header {
   display: block;
 }
 
+
+
 }
 
 /* iPads (portrait) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
 /* Styles */
+
 }
 /**********
 iPad 3
@@ -1206,6 +1217,14 @@ iPad 3
   margin: 0;
 }
 
+#group-last {
+  margin: 0px;
+}
+
+#group-phone {
+  margin: 0px;
+}
+
 }
 
 /* Large screens ----------- */
@@ -1273,6 +1292,14 @@ iPad 3
 
    #assessment-email {
      margin: 0;
+   }
+
+   #group-last {
+     margin: 0px;
+   }
+
+   #group-phone {
+     margin: 0px;
    }
 
 }
