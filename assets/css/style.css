@@ -331,9 +331,7 @@ margin-top: -7px;
 }
 
 .directions {
-  background-color: gray;
-  padding: 4px;
-  width: 35%;
+  text-decoration: underline;
 }
 /****************************** END LOCATION PAGE*************************/
 
@@ -629,11 +627,7 @@ color: white;
     font-size: 1.2em;
   }
 
-  #careers-img{
-    border: solid 10px black;
-    margin-top: 20px;
-    width: 100%;
-  }
+
 
   #careers-list {
     list-style: none;
@@ -714,6 +708,13 @@ color: white;
 
 /******************** END JOIN LOCATION PAGE ***********************/
 
+/***************************PRIVACY POLICY*************************/
+
+#privacy-policy h2,h4,p{
+  color: rgb(56,56,56);
+}
+
+/************************* END PRIVACY POLICY ***********************/
 
 /*FOOTER*/
 
