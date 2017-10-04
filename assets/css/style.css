@@ -571,6 +571,22 @@ color: white;
   -o-background-size: cover; height: 400px;
 }
 
+#group-button {
+  margin: 5px 0 0 14px;
+}
+
+#group-select {
+  margin-top: 5px;
+}
+
+#group-email {
+  margin-top: 5px;
+}
+
+#group-phone {
+ margin-top: 5px;
+}
+
 /*************************** GROUP FITNESS PAGE *************************/
 
 /**************************CHALLENGE PAGE*******************************/
@@ -865,6 +881,14 @@ footer {
    display: none;
  }
 
+ #group-last {
+   margin-top: 8px;
+ }
+
+ #group-phone {
+   margin-top: 8px;
+ }
+
 }
 
 /* Smartphones (landscape) ----------- */
@@ -903,7 +927,21 @@ footer {
   display: none;
 }
 
+#assessment-last {
+  margin-top: 5px;
+}
 
+#assessment-email {
+  margin: -14px 0 5px 0;
+}
+
+#group-last {
+  margin-top: 8px;
+}
+
+#group-phone {
+  margin-top: 8px;
+}
 
 }
 
@@ -990,6 +1028,22 @@ div.navbar-header {
   padding-bottom: 40px;
 }
 
+#assessment-last {
+  margin-top: 5px;
+}
+
+#assessment-email {
+  margin: -15px 0 5px 0;
+}
+
+#group-last {
+  margin-top: 8px;
+}
+
+#group-phone {
+  margin-top: 8px;
+}
+
 }
 
 /* iPads (portrait and landscape) ----------- */
@@ -1032,11 +1086,11 @@ div.navbar-header {
   }
 
   #meet-our-trainers .bio img {
-    display: block;
+    display: none;
   }
 
   #meet-our-trainers br {
-    display: block;
+    display: none;
   }
 }
 
@@ -1110,10 +1164,10 @@ iPad 3
      height: 400px;
  }
 
-
   .drop {
    height: 400px;
  }
+
 
  #club-info-images {
    padding-top: 60px;
@@ -1144,7 +1198,13 @@ iPad 3
   display: block;
 }
 
+#assessment-last {
+  margin: 0;
+}
 
+#assessment-email {
+  margin: 0;
+}
 
 }
 
@@ -1207,7 +1267,13 @@ iPad 3
      display: block;
    }
 
+   #assessment-last {
+     margin: 0;
+   }
 
+   #assessment-email {
+     margin: 0;
+   }
 
 }
 

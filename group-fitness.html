@@ -110,34 +110,34 @@
 <section id="group-fitness-classes">
  <div class="container">
    <div class="row">
-    <div class="col-lg-3 col-lg-offset-2 col-md-3 col-md-offset-2 col-sm-3 col-xs-12 class">
+    <div class="col-lg-3 col-lg-offset-2 col-md-3 col-md-offset-2 col-sm-12 col-xs-12 class">
       <img class="img-responsive" src="./assets/img/group.jpg" alt="fitness class">
         <h3>Yoga</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim</p>
     </div>
-    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 class">
-      <img class="img-responsive" src="./assets/img/spin.jpg" style="height: 121.25px" alt="fitness class">
+    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 class">
+      <img class="img-responsive" src="./assets/img/spin.jpg"  alt="fitness class">
         <h3>Spin</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim</p>
     </div>
-    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 class">
+    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 class">
       <img class="img-responsive" src="./assets/img/group.jpg"  alt="fitness class">
         <h3>Zumba</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim</p>
     </div>
    </div>
    <div class="row">
-    <div class="col-lg-3 col-lg-offset-2 col-md-3 col-md-offset-2 col-sm-3 col-xs-12 class">
+    <div class="col-lg-3 col-lg-offset-2 col-md-3 col-md-offset-2 col-sm-12 col-xs-12 class">
       <img class="img-responsive" src="./assets/img/group.jpg" alt="fitness class">
         <h3>Boot Camp</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim</p>
     </div>
-    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 class">
+    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 class">
       <img class="img-responsive" src="./assets/img/group.jpg" alt="fitness class">
         <h3>Another Class</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim</p>
     </div>
-    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 class">
+    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 class">
       <img class="img-responsive" src="./assets/img/group.jpg" alt="fitness class">
         <h3>Another Class</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim</p>
@@ -187,29 +187,28 @@
        <p id="modal-p">Full access pass includes unlimited club visits, kids room and group fitness classes </p>
        <form>
          <div class="form-group row">
-           <h4 id="assessment-form-header">Optimal Results Start Here</h4>
            <label for="first-name" class="sr-only">First Name:</label>
            <div class="col-sm-5">
-         <input type="text" class="form-control" id="assessment-first" placeholder="First Name">
+         <input type="text" class="form-control" id="group-first" placeholder="First Name">
          </div>
          <label for="last-name" class="sr-only">Last Name:</label>
          <div class="col-sm-5">
-       <input type="text" class="form-control" id="assessment-last" placeholder="Last Name">
+       <input type="text" class="form-control" id="group-last" placeholder="Last Name">
        </div>
          </div>
          <div class="form-group row">
            <label for="email" class="sr-only">Email:</label>
            <div class="col-sm-5">
-         <input type="email" class="form-control" id="assessment-email" placeholder="Email">
+         <input type="email" class="form-control" id="group-email" placeholder="Email">
          </div>
          <label for="phone" class="sr-only">Phone:</label>
          <div class="col-sm-5">
-       <input type="phone" class="form-control" id="assessment-phone" placeholder="Phone">
+       <input type="phone" class="form-control" id="group-phone" placeholder="Phone">
        </div>
          </div>
          <div class="form-group row">
            <label for="location" class="sr-only">Location:</label>
-           <div class="col-sm-5">
+           <div class="col-sm-5" id="group-select">
            <select class="form-control">
           <option>-- Please Select A Location --</option>
           <option>Eagan</option>
@@ -220,7 +219,7 @@
          </div>
 
          <div class="form-group row">
-          <button type="submit" class="btn btn-info">Get Pass</button>
+          <button id="group-button" type="submit" class="btn btn-info">Get Pass</button>
          </div>
        </form>
         <hr>
